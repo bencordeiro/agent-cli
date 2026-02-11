@@ -1,0 +1,12 @@
+[approval]
+# "prompt" asks before each command. "auto" runs without prompts.
+mode = "prompt"
+
+[defaults]
+weather_url = "http://YOUR_WEATHER_HOST:PORT/"
+site_url = "http://YOUR_SITE_HOST:PORT/web
+box_class = "box"
+
+[llm]
+base_url = "http://YOUR_LLM_HOST:PORT/v1"
+model = "llama-3.3-70b"
